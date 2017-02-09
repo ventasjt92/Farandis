@@ -7,7 +7,6 @@
 /* Global Styles */
 .retraso{
     animation-delay: 3s;
-    animation-duration: 3s;
 }
 
 html,
@@ -24,6 +23,13 @@ body {
 .titulo{
     font-family: 'Caveat Brush', cursive;
 }
+
+.titulo2{
+    font-family: 'Caveat Brush', cursive;
+    color:white;
+}
+
+
 
 .text-vertical-center {
     display: table-cell;
