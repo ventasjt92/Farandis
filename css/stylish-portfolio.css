@@ -6,7 +6,8 @@
 
 /* Global Styles */
 .retraso{
-    animation-delay: 1s;
+    animation-delay: 3s;
+    animation-duration: 3s;
 }
 
 html,
@@ -16,7 +17,8 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Sansita', sans-serif;
+/*    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
 
 .titulo{
@@ -68,6 +70,7 @@ body {
 
 hr.small {
     max-width: 100px;
+
 }
 
 /* Side Menu */
@@ -263,9 +266,10 @@ footer {
 
 .profile 
 {
-    min-height: 255px;
+    min-height: 200px;
     display: inline-block;
     }
+
 figcaption.ratings
 {
     margin-top:20px;
