@@ -1136,7 +1136,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  max-height: 400px; 
 }
 .img-rounded {
   border-radius: 6px;
@@ -1394,7 +1394,7 @@ a.bg-primary:focus {
   background-color: #286090;
 }
 .bg-success {
-  background-color: #7EF868;
+  background-color: #00FF00;
 }
 a.bg-success:hover,
 a.bg-success:focus {

@@ -1,4 +1,11 @@
-
+$(function() {
+  return $(".carousel.lazy").on("slide", function(ev) {
+    var lazy;
+    lazy = $(ev.relatedTarget).find("img[data-src]");
+    lazy.attr("src", lazy.data('src'));
+    lazy.removeAttr("data-src");
+  });
+});
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

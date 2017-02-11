@@ -25,6 +25,7 @@ body {
 
 .titulo{
     font-family: 'Caveat Brush', cursive;
+    margin-top: 100px;
 }
 
 .titulo2{
@@ -41,7 +42,7 @@ body {
 }
 
 .text-vertical-center h1 {
-    margin-top: 10px;
+    margin-top: 25px;
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
